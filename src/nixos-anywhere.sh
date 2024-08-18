@@ -302,7 +302,8 @@ ssh_user=$(echo "$ssh_settings" | awk '/^user / { print $2 }')
 ssh_host=$(echo "$ssh_settings" | awk '/^hostname / { print $2 }')
 ssh_port=$(echo "$ssh_settings" | awk '/^port / { print $2 }')
 
-step Uploading install SSH keys
+step Uploading install SSH keys HOYEAH
+
 until
   if [[ -n ${env_password-} ]]; then
     sshpass -e \
