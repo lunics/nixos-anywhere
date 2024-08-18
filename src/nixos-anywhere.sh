@@ -343,7 +343,7 @@ import_facts() {
   export $(echo "$filtered_facts" | xargs)
 }
 
-step Gathering machine facts
+step Gathering machine factss
 import_facts
 
 if [[ ${has_tar-n} == "n" ]]; then
