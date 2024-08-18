@@ -344,6 +344,7 @@ import_facts() {
 }
 
 step Gathering machine factss
+echo YEESS
 import_facts
 
 if [[ ${has_tar-n} == "n" ]]; then
